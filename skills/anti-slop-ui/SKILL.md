@@ -1,7 +1,7 @@
 ---
 name: anti-slop-ui
 description: Design guidance and workflows for improving the visual layer of frontend interfaces so they look intentionally designed rather than generic or AI-generated. Use when asked to build, redesign, refine, polish, audit, or fix the look of UI (components, pages, dashboards, landing pages, forms, onboarding, mobile screens), to remove generic "AI slop" visuals, to review a UI's visual or accessibility quality, or when the user shares screenshots or sites as design references. Adapts to the user's brand and chosen style (minimal, colorful, playful, editorial, maximalist, dark, and more) and runs a short design intake before large work. Changes presentation only (styling, layout, tokens, visual motion) and never alters application behavior without explicit permission. Not for backend, business-logic, data, or other non-visual tasks.
-license: No license chosen yet - see README.md
+license: MIT
 metadata:
   version: "0.2.0"
   status: "pre-release: scripts tested; agent behavior not independently tested (see tests/scenarios.md)"

@@ -105,7 +105,7 @@ The repository ships a standard `SKILL.md` with YAML frontmatter and no agent-sp
 ### Manual ZIP installation
 
 1. Download the packaged skill: [`dist/anti-slop-ui-v1.0.0.zip`](https://github.com/Surajmaurya1/anti-slop-ui/raw/main/dist/anti-slop-ui-v1.0.0.zip).
-2. Extract it. You get a single folder named `anti-slop-ui/` containing `SKILL.md`, `references/`, `scripts/`, and `tests/`.
+2. Extract it. You get a single folder named `anti-slop-ui/` containing `SKILL.md`, `LICENSE`, `references/`, and `scripts/`.
 3. Move or copy that folder into your agent's skills directory.
    - Claude Code, personal skills: `~/.claude/skills/anti-slop-ui/`
    - Claude Code, project skills: `.claude/skills/anti-slop-ui/`
@@ -123,6 +123,7 @@ The ZIP has no external dependencies, no build step, and no `node_modules`. Do n
 ```text
 anti-slop-ui/
 ├── README.md
+├── LICENSE
 ├── CHANGELOG.md
 ├── skills/
 │   └── anti-slop-ui/
@@ -146,7 +147,7 @@ anti-slop-ui/
     └── anti-slop-ui-v1.0.0.zip
 ```
 
-`skills/anti-slop-ui/` is the source of truth and the path the Skills CLI discovers. `dist/` contains the same skill packaged for manual installation. See [`CHANGELOG.md`](CHANGELOG.md) for release notes and known gaps.
+`skills/anti-slop-ui/` is the source of truth and the path the Skills CLI discovers. `dist/` contains the same skill packaged for manual installation, including `SKILL.md`, `LICENSE`, `references/`, and `scripts/`; the development tests stay in the repository. See [`CHANGELOG.md`](CHANGELOG.md) for release notes and known gaps.
 
 ## Optional Python helpers
 
@@ -180,6 +181,8 @@ Issues and pull requests are welcome.
 
 ## License
 
-**No license has been chosen for this project yet.** The skill's own metadata records `license: No license chosen yet - see README.md`, and the repository intentionally contains no `LICENSE` file.
+Anti-Slop UI is open source and available under the MIT License.
 
-Because no license is present, no permission is granted to copy, modify, or redistribute the contents beyond what GitHub's Terms of Service and applicable law allow. Do not assume MIT, Apache-2.0, or any other license applies. If you want to reuse Anti-Slop UI, open an issue to discuss licensing with the maintainer.
+Copyright (c) 2026 Suraj Maurya.
+
+See the [LICENSE](./LICENSE) file for the complete license terms.
