@@ -1,0 +1,85 @@
+// Contrast pairs for the token presets in references/tokens.md. Every line must pass at its threshold.
+// Run: python3 scripts/contrast.py --pairs tests/contrast-pairs.txt   (lines without min= use the default 4.5)
+// ===== A light: Precise Neutral (revised)
+#0a0a0a #fafafa  A-L fg/bg
+#0a0a0a #ffffff  A-L fg/surface
+#5f5f68 #ffffff  A-L muted/surface
+#5f5f68 #fafafa  A-L muted/bg
+#5f5f68 #f4f4f5  A-L muted/surface-muted
+#6b6b74 #ffffff  A-L subtle/surface
+#6b6b74 #f4f4f5  A-L subtle/surface-muted
+min=3 #8a8a93 #ffffff  A-L border-input/surface
+min=3 #8a8a93 #fafafa  A-L border-input/bg
+min=3 #0a0a0a #fafafa  A-L ring/bg
+#fafafa #0a0a0a  A-L primary-fg/primary
+#15803d #ffffff  A-L success
+#15803d #f4f4f5  A-L success/muted
+#b45309 #ffffff  A-L warning
+#b45309 #f4f4f5  A-L warning/muted
+#b91c1c #ffffff  A-L destructive
+#b91c1c #f4f4f5  A-L destructive/muted
+// ===== A dark
+#f5f5f5 #161616  A-D fg/surface
+#f5f5f5 #0a0a0a  A-D fg/bg
+#a0a0a8 #161616  A-D muted/surface
+#a0a0a8 #1f1f1f  A-D muted/raised
+#a0a0a8 #262626  A-D muted/surface-muted
+#8e8e97 #161616  A-D subtle/surface
+#8e8e97 #262626  A-D subtle/surface-muted
+min=3 #6e6e78 #1c1c1c  A-D border-input/input
+min=3 #6e6e78 #161616  A-D border-input/surface
+min=3 #f5f5f5 #161616  A-D ring/surface
+#0a0a0a #f5f5f5  A-D primary-fg/primary
+#4ade80 #262626  A-D success/muted
+#fbbf24 #262626  A-D warning/muted
+#f87171 #262626  A-D destructive/muted
+// ===== B Warm Commerce (light)
+#1f1a17 #fffaf5  B fg/bg
+#1f1a17 #ffffff  B fg/surface
+#6a5d54 #ffffff  B muted/surface
+#6a5d54 #fffaf5  B muted/bg
+#6a5d54 #f6efe8  B muted/surface-muted
+min=3 #8c7d72 #ffffff  B border-input/surface
+min=3 #8c7d72 #fffaf5  B border-input/bg
+#ffffff #c2410c  B primary-fg/primary
+#c2410c #ffffff  B link/brand text on surface
+#c2410c #fffaf5  B link/brand text on bg
+min=3 #c2410c #fffaf5  B ring/bg
+#9a3412 #fde8d9  B tint chip text/bg
+#0f766e #ffffff  B secondary teal text
+#ffffff #0f766e  B secondary teal button
+#b91c1c #ffffff  B sale/destructive
+#15803d #ffffff  B success
+// ===== C Playful Bright (light)
+#14213d #fffaf0  C ink/bg
+#14213d #ffffff  C ink/surface
+#4b5775 #ffffff  C muted/surface
+#4b5775 #fffaf0  C muted/bg
+#14213d #ff6b35  C ink on primary orange
+#14213d #2ec4b6  C ink on mint
+#14213d #ffd23f  C ink on yellow
+#14213d #ff8fab  C ink on pink
+min=3 #14213d #fffaf0  C border/ring on bg
+#ffffff #14213d  C white on ink button
+#15803d #ffffff  C success
+#b91c1c #ffffff  C destructive
+// ===== D Dark Developer Tool
+#e6e9ee #0b0d10  D fg/bg
+#e6e9ee #12151a  D fg/surface
+#e6e9ee #181c22  D fg/raised
+#98a1b0 #12151a  D muted/surface
+#98a1b0 #181c22  D muted/raised
+#98a1b0 #20252d  D muted/surface-muted
+#8a93a3 #12151a  D subtle/surface
+#8a93a3 #20252d  D subtle/surface-muted
+min=3 #667080 #12151a  D border-input/surface
+min=3 #667080 #181c22  D border-input/raised
+#0b0d10 #5eead4  D primary-fg/accent button
+#5eead4 #12151a  D accent text/surface
+min=3 #5eead4 #12151a  D ring/surface
+#4ade80 #20252d  D success/muted
+#fbbf24 #20252d  D warning/muted
+#f87171 #20252d  D destructive/muted
+// ===== C extra surface used in tokens.md
+#14213d #fff1d6  C ink/surface-muted
+#4b5775 #fff1d6  C muted/surface-muted

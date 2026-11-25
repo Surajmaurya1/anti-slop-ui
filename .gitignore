@@ -1,0 +1,15 @@
+# Original source archive, kept locally and not published
+/files.zip
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node
+node_modules/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
