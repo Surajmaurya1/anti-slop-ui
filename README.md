@@ -12,6 +12,14 @@ AI-generated interfaces tend to converge. The same purple-blue gradient hero, th
 
 Anti-Slop UI treats "slop" as **a decision made by default, for no reason**. It does not ban gradients, cards, color, animation, or density. It asks the agent to justify each choice against the product, the audience, and the brand, and to keep the result coherent.
 
+## Before & after
+
+An example of using this skill's **Fix AI slop** workflow on an existing operations dashboard — removing unmotivated purple gradients, glow effects, and generic AI buzzword labels while keeping the layout, data, and controls intact:
+
+| Before (generic AI slop) | After (with Anti-Slop UI) |
+|---|---|
+| ![ShopPulse dashboard before using Anti-Slop UI: purple gradients, glowing borders, and generic AI labels](before.jpg) | ![ShopPulse dashboard after using Anti-Slop UI: neutral dark surfaces, subtle borders, and clear hierarchy](after.jpg) |
+
 ## Key capabilities
 
 - **Eight task workflows** — build new UI, redesign, refine, audit, fix AI slop, polish a component, improve responsive layouts, and fix a visual bug. Each workflow defines its own scope, outputs, and edit permissions.
@@ -125,6 +133,8 @@ anti-slop-ui/
 ├── README.md
 ├── LICENSE
 ├── CHANGELOG.md
+├── before.jpg
+├── after.jpg
 ├── skills/
 │   └── anti-slop-ui/
 │       ├── SKILL.md
